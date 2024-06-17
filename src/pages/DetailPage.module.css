@@ -1,0 +1,24 @@
+.detail-page-01,
+.layer {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.layer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-4xl) 85px var(--padding-5xl);
+  cursor: pointer;
+  z-index: 3;
+}
+.detail-page-01 {
+  width: 100%;
+  position: relative;
+  background-color: var(--mono-white);
+  flex-direction: column;
+  padding: var(--padding-xs) 0 var(--padding-7xl);
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}

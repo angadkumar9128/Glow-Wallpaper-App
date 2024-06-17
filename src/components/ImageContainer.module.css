@@ -1,0 +1,105 @@
+.image-icon1,
+.rectangle-div {
+  position: relative;
+  border-radius: var(--br-6xl);
+}
+.rectangle-div {
+  width: 320px;
+  height: 249px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  background-color: var(--mono-white);
+  display: none;
+}
+.image-icon1 {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.activity-name2 {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.tag-icon1 {
+  width: 12px;
+  height: 12px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.tag-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.price1,
+.spacer {
+  position: relative;
+  display: inline-block;
+  min-width: 47px;
+  z-index: 1;
+}
+.price1 {
+  min-width: 24px;
+}
+.tag-price {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-sm-8);
+  font-size: var(--font-size-sm);
+}
+.activity-details,
+.rectangle-group,
+.tag-price {
+  display: flex;
+  justify-content: flex-start;
+}
+.activity-details {
+  width: 295.7px;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-29xl);
+}
+.rectangle-group {
+  flex: 1;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  border-radius: var(--br-6xl);
+  background-color: var(--mono-white);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-3xs) 0 var(--padding-xs) var(--padding-2xs);
+  gap: var(--gap-base);
+}
+.container2,
+.image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.container2 {
+  flex: 1;
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-lgi) var(--padding-4xs)
+    var(--padding-9xl);
+  max-width: 102%;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.image-container {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xs) 0 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+  font-family: var(--font-ubuntu);
+}

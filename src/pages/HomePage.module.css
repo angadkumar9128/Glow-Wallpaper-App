@@ -1,0 +1,13 @@
+.home-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--mono-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-5xs) 29px 0;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}

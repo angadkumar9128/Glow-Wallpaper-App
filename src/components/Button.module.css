@@ -1,0 +1,34 @@
+.button-background1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 1px;
+  bottom: 0;
+  left: 0;
+  box-shadow: var(--purple-shadow);
+  border-radius: var(--br-mini);
+  background-color: var(--color-slateblue-100);
+}
+.book-now1 {
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.button3 {
+  width: 189px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-12xs) var(--padding-6xl);
+  box-sizing: border-box;
+  position: relative;
+  white-space: nowrap;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--mono-white);
+  font-family: var(--font-ubuntu);
+}

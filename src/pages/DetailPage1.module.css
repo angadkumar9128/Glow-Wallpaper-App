@@ -1,0 +1,95 @@
+.container {
+  align-self: stretch;
+  height: 153px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.while-each-and {
+  width: 325px;
+  position: absolute;
+  margin: 0 !important;
+  right: 21px;
+  bottom: -30px;
+  line-height: 24px;
+  display: inline-block;
+  z-index: 4;
+}
+.frame-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini) 131px var(--padding-xs);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--black);
+  font-family: var(--font-ubuntu);
+}
+.button-background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: var(--purple-shadow);
+  border-radius: var(--br-mini);
+  background-color: var(--color-slateblue-100);
+}
+.book-now {
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.button,
+.detail-page-02,
+.layer1 {
+  display: flex;
+  align-items: flex-start;
+}
+.button {
+  width: 195px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0 var(--padding-6xl) var(--padding-12xs);
+  box-sizing: border-box;
+  position: relative;
+  white-space: nowrap;
+}
+.detail-page-02,
+.layer1 {
+  overflow: hidden;
+}
+.layer1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-4xl) var(--padding-xl) var(--padding-5xl);
+  cursor: pointer;
+  z-index: 3;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--mono-white);
+  font-family: var(--font-ubuntu);
+}
+.detail-page-02 {
+  width: 100%;
+  position: relative;
+  background-color: var(--mono-white);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 var(--padding-7xl);
+  box-sizing: border-box;
+  gap: 18px;
+  line-height: normal;
+  letter-spacing: normal;
+}

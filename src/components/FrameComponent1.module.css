@@ -1,0 +1,61 @@
+.activity-image-icon2,
+.activity-image-icon3 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-width: 103px;
+  min-height: 174px;
+}
+.name-and-image {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 0;
+  gap: var(--gap-lgi);
+}
+.activity-name-flexo {
+  position: relative;
+}
+.activity-details-wrapper,
+.activity-details1,
+.container3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container3 {
+  align-self: stretch;
+  height: 44px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-mid) 0 0 var(--padding-2xs);
+  box-sizing: border-box;
+}
+.activity-details-wrapper,
+.activity-details1 {
+  max-width: 100%;
+}
+.activity-details1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-12xs);
+}
+.activity-details-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-mini) var(--padding-mini) var(--padding-xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-ubuntu);
+}

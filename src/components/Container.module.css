@@ -1,0 +1,100 @@
+.frame-inner,
+.image-icon {
+  border-radius: var(--br-6xl);
+}
+.frame-inner {
+  width: 320px;
+  height: 249px;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  background-color: var(--mono-white);
+  display: none;
+}
+.image-icon {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.activity-name1,
+.image-icon,
+.tag-icon {
+  position: relative;
+  z-index: 1;
+}
+.activity-name1 {
+  flex: 1;
+}
+.tag-icon {
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tag-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.blank-space,
+.price {
+  position: relative;
+  display: inline-block;
+  min-width: 47px;
+  z-index: 1;
+}
+.price {
+  min-width: 24px;
+}
+.activity-name-parent,
+.frame-parent2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frame-parent2 {
+  align-items: flex-start;
+  gap: var(--gap-sm-8);
+  font-size: var(--font-size-sm);
+}
+.activity-name-parent {
+  flex: 1;
+  align-items: flex-end;
+  gap: var(--gap-21xl);
+}
+.activity-container {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-smi) 0 var(--padding-5xs);
+}
+.activity-container,
+.container1,
+.rectangle-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-parent {
+  flex: 1;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  border-radius: var(--br-6xl);
+  background-color: var(--mono-white);
+  flex-direction: column;
+  padding: var(--padding-3xs) 0 var(--padding-xs) var(--padding-2xs);
+  gap: var(--gap-base);
+}
+.container1 {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-lgi) var(--padding-4xs)
+    var(--padding-9xl);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+  font-family: var(--font-ubuntu);
+}

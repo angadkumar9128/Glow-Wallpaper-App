@@ -1,0 +1,216 @@
+.menu-icon {
+  width: 44px;
+  height: 44px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.profile-image-icon {
+  margin-bottom: -1px;
+  height: 49px;
+  width: 51px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 448091;
+}
+.profile-icon {
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.angad {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 56px;
+  flex-shrink: 0;
+  debug_commit: 448091;
+}
+.menu-search,
+.profile-icon-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menu-search {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--black);
+  font-family: var(--font-ubuntu);
+}
+.activity-name {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.activity-name-flexo-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi);
+}
+.discover-the-best {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  white-space: nowrap;
+}
+.discover-the-best-wallpapers-f-wrapper,
+.header-content {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.discover-the-best-wallpapers-f-wrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-smi);
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray);
+}
+.header-content {
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.search-bar-child {
+  height: 50px;
+  width: 267px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-slateblue-200);
+  display: none;
+}
+.search-componentsvg-icon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.search-icon-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.search-componentinput-text {
+  width: 201px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-ubuntu);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  color: var(--color-slateblue-100);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  z-index: 1;
+}
+.search-bar {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-slateblue-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-smi) var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  min-width: 174px;
+}
+.filter-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  transform: scale(2);
+}
+.wrapper-filter {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.filter-holder,
+.search-bar-container,
+.search-bar-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.filter-holder {
+  height: 45px;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.search-bar-container,
+.search-bar-parent {
+  flex-direction: row;
+}
+.search-bar-parent {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: var(--gap-smi);
+}
+.search-bar-container {
+  align-self: stretch;
+  padding: 0 var(--padding-smi);
+}
+.header-container,
+.header-container-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.header-container {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.header-container-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xs) var(--padding-lgi) var(--padding-mini);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-ubuntu);
+}

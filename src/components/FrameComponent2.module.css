@@ -1,0 +1,101 @@
+.arrow-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-lightpink);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.chevron-left-icon {
+  position: absolute;
+  top: 6.4px;
+  left: 6.6px;
+  width: 27.9px;
+  height: 27.2px;
+  overflow: hidden;
+  z-index: 1;
+}
+.arrow,
+.back {
+  position: relative;
+}
+.arrow {
+  height: 40px;
+  width: 41px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-lightpink);
+  cursor: pointer;
+}
+.back {
+  text-decoration: none;
+  line-height: 24px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 62px;
+}
+.arrow-parent,
+.back-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.arrow-parent {
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-xs);
+}
+.activity-image-icon,
+.activity-image-icon1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 174px;
+}
+.image-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  max-width: 100%;
+}
+.image-wrapper-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.detail-page-01-inner,
+.frame-parent3,
+.image-wrapper-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent3 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.detail-page-01-inner {
+  width: 357px;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs) var(--padding-lg);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-ubuntu);
+}
